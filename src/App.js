@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Alert show={show} variant="warn">
+    <Alert variant="warn">
       <Alert.Heading>Success!</Alert.Heading>
       <p>Congrats! The app is working!</p>
     </Alert>
